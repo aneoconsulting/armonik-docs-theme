@@ -24,6 +24,7 @@
     "components",
     "composables",
     "app.config.ts",
+    "app.vue",
     "nuxt.config.ts",
     "tokens.config.ts"
   ],
