@@ -66,6 +66,11 @@ export default defineAppConfig({
           target: "_blank",
           href: "https://aneoconsulting.github.io/ArmoniK.Admin.GUI/",
         },
+        {
+          text: "ArmoniK.Community",
+          target: "_blank",
+          href: "https://aneoconsulting.github.io/ArmoniK.Community/",
+        },
       ],
       iconLinks: [],
     },
