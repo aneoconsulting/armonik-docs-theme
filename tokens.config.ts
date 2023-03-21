@@ -14,5 +14,13 @@ export default defineTheme({
       800: '#9a3412',
       900: '#7c2d12',
     }
+  },
+  docus: {
+    loadingBar: {
+      height: '3px',
+      gradientColorStop1: '#f4271c',
+      gradientColorStop2: '#f49321',
+      gradientColorStop3: '#f0dd28'
+    }
   }
 })
