@@ -2,6 +2,7 @@ export default defineAppConfig({
   docus: {
     title: 'ArmoniK',
     description: 'ArmoniK Documentation',
+    titleTemplate: '%s - ArmoniK',
     socials: {
       linkedin: {
         label: "LinkedIn",

@@ -22,5 +22,22 @@ export default defineNuxtConfig({
     }
   },
 
-  extends: '@nuxt-themes/docus',
+  extends: ['nuxt-seo-kit', '@nuxt-themes/docus'],
+
+  content: {
+    documentDriven: {
+      trailingSlash: true,
+    }
+  },
+
+  runtimeConfig: {
+    public: {
+      siteUrl: 'https://example.com',
+      siteName: 'ArmoniK Docs Theme',
+      siteDescription: 'A beautiful, responsive, and customizable documentation theme for ArmoniK.',
+      titleSeparator: '-',
+      language: 'en-US',
+      trailingSlash: true,
+    }
+  },
 })
