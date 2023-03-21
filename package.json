@@ -30,6 +30,7 @@
   "dependencies": {
     "@nuxt-themes/docus": "^1.9.9",
     "mermaid": "^10.0.0",
+    "rollup": "3.18.0",
     "nuxt": "^3.2.3"
   },
   "devDependencies": {
