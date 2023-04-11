@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-defineOgImageScreenshot()
-
 const sameAs = [
   'https://armonik.fr',
   'https://aneo.eu',
@@ -12,6 +10,7 @@ const sameAs = [
 <template>
   <AppLayout>
     <SeoKit />
+    <OgImageScreenshot />
     <SchemaOrgOrganization name="ArmoniK" logo="" :same-as="sameAs" />
     <NuxtPage />
   </AppLayout>
