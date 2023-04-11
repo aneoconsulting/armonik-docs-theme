@@ -3,6 +3,7 @@ export default defineAppConfig({
     title: 'ArmoniK',
     description: 'ArmoniK Documentation',
     titleTemplate: '%s - ArmoniK',
+    image: '',
     socials: {
       linkedin: {
         label: "LinkedIn",

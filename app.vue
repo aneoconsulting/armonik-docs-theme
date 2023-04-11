@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+defineOgImageScreenshot()
+
 const sameAs = [
   'https://armonik.fr',
   'https://aneo.eu',
