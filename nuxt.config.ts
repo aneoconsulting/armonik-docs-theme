@@ -40,4 +40,6 @@ export default defineNuxtConfig({
       trailingSlash: true,
     }
   },
+
+  devtools: true
 })
