@@ -16,6 +16,9 @@ export default defineAppConfig({
         label: "Website",
         href: "https://armonik.fr",
         icon: "mdi:web",
+        // Waiting for an upstream fix in Docus
+        // @see https://github.com/nuxt-themes/docus/pull/899
+        rel: "noopener",
       },
       github: "aneoconsulting/armonik-docs-theme",
     },
@@ -50,26 +53,31 @@ export default defineAppConfig({
         {
           text: "ArmoniK",
           target: "_blank",
+          rel: "noopener",
           href: "https://aneoconsulting.github.io/ArmoniK/",
         },
         {
           text: "ArmoniK.Core",
           target: "_blank",
+          rel: "noopener",
           href: "https://aneoconsulting.github.io/ArmoniK.Core/",
         },
         {
           text: "ArmoniK.Api",
           target: "_blank",
+          rel: "noopener",
           href: "https://aneoconsulting.github.io/ArmoniK.Api/",
         },
         {
           text: "ArmoniK.Admin.GUI",
           target: "_blank",
+          rel: "noopener",
           href: "https://aneoconsulting.github.io/ArmoniK.Admin.GUI/",
         },
         {
           text: "ArmoniK.Community",
           target: "_blank",
+          rel: "noopener",
           href: "https://aneoconsulting.github.io/ArmoniK.Community/",
         },
       ],
