@@ -41,6 +41,10 @@ export default defineNuxtConfig({
     }
   },
 
+  linkChecker: {
+    failOn404: true,
+  },
+
   devtools: true,
 
   experimental: {
