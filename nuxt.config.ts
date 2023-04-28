@@ -41,5 +41,9 @@ export default defineNuxtConfig({
     }
   },
 
-  devtools: true
+  devtools: true,
+
+  experimental: {
+    watcher: 'parcel'
+  }
 })
