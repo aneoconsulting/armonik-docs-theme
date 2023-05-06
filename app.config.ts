@@ -6,25 +6,25 @@ export default defineAppConfig({
     image: '',
     socials: {
       linkedin: {
-        label: "LinkedIn",
-        href: "https://www.linkedin.com/company/aneo/",
-        icon: "mdi:linkedin",
+        label: 'LinkedIn',
+        href: 'https://www.linkedin.com/company/aneo/',
+        icon: 'mdi:linkedin'
       },
-      instagram: "https://www.instagram.com/aneoconsulting/",
-      twitter: "https://twitter.com/ANEOConseil",
+      instagram: 'https://www.instagram.com/aneoconsulting/',
+      twitter: 'https://twitter.com/ANEOConseil',
       website: {
-        label: "Website",
-        href: "https://armonik.fr",
-        icon: "mdi:web",
+        label: 'Website',
+        href: 'https://armonik.fr',
+        icon: 'mdi:web',
         // Waiting for an upstream fix in Docus
         // @see https://github.com/nuxt-themes/docus/pull/899
-        rel: "noopener",
+        rel: 'noopener'
       },
-      github: "aneoconsulting/armonik-docs-theme",
+      github: 'aneoconsulting/armonik-docs-theme'
     },
     aside: {
       level: 1,
-      exclude: [],
+      exclude: []
     },
     github: {
       dir: 'content',
@@ -34,7 +34,7 @@ export default defineAppConfig({
       edit: true
     },
     main: {
-      fluid: true,
+      fluid: true
     },
     header: {
       logo: true,
@@ -45,43 +45,43 @@ export default defineAppConfig({
     footer: {
       fluid: true,
       credits: {
-        text: "",
-        href: "https://www.aneo.eu",
-        icon: "LogosAneo",
+        text: '',
+        href: 'https://www.aneo.eu',
+        icon: 'LogosAneo'
       },
       textLinks: [
         {
-          text: "ArmoniK",
-          target: "_blank",
-          rel: "noopener",
-          href: "https://aneoconsulting.github.io/ArmoniK/",
+          text: 'ArmoniK',
+          target: '_blank',
+          rel: 'noopener',
+          href: 'https://aneoconsulting.github.io/ArmoniK/'
         },
         {
-          text: "ArmoniK.Core",
-          target: "_blank",
-          rel: "noopener",
-          href: "https://aneoconsulting.github.io/ArmoniK.Core/",
+          text: 'ArmoniK.Core',
+          target: '_blank',
+          rel: 'noopener',
+          href: 'https://aneoconsulting.github.io/ArmoniK.Core/'
         },
         {
-          text: "ArmoniK.Api",
-          target: "_blank",
-          rel: "noopener",
-          href: "https://aneoconsulting.github.io/ArmoniK.Api/",
+          text: 'ArmoniK.Api',
+          target: '_blank',
+          rel: 'noopener',
+          href: 'https://aneoconsulting.github.io/ArmoniK.Api/'
         },
         {
-          text: "ArmoniK.Admin.GUI",
-          target: "_blank",
-          rel: "noopener",
-          href: "https://aneoconsulting.github.io/ArmoniK.Admin.GUI/",
+          text: 'ArmoniK.Admin.GUI',
+          target: '_blank',
+          rel: 'noopener',
+          href: 'https://aneoconsulting.github.io/ArmoniK.Admin.GUI/'
         },
         {
-          text: "ArmoniK.Community",
-          target: "_blank",
-          rel: "noopener",
-          href: "https://aneoconsulting.github.io/ArmoniK.Community/",
-        },
+          text: 'ArmoniK.Community',
+          target: '_blank',
+          rel: 'noopener',
+          href: 'https://aneoconsulting.github.io/ArmoniK.Community/'
+        }
       ],
-      iconLinks: [],
-    },
-  },
+      iconLinks: []
+    }
+  }
 })

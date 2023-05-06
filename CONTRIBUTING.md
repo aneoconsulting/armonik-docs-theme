@@ -20,14 +20,14 @@ When necessary, maintainers can release a new version. This new version will pub
 
 > Replace <version> with the new version number
 
-1. Install Node.js LTS version (https://nodejs.org/en/download/)
-3. Create a new branch from main named `chore(release): release <version>` (from the root of the project)
-4. Update versions in `package.json` and run `pnpm install` (from the root of the project)
-5. Commit changes with `chore(release): release <version>`
-6. Push the branch to the remote repository
-7. Create a new pull request from the branch to main
-8. Merge the pull request
-9. Create a new release named `<version>` using the GitHub interface (be sure to select the main branch and to create a tag)
+1. Install Node.js LTS version (<https://nodejs.org/en/download/>)
+2. Create a new branch from main named `chore(release): release <version>` (from the root of the project)
+3. Update versions in `package.json` and run `pnpm install` (from the root of the project)
+4. Commit changes with `chore(release): release <version>`
+5. Push the branch to the remote repository
+6. Create a new pull request from the branch to main
+7. Merge the pull request
+8. Create a new release named `<version>` using the GitHub interface (be sure to select the main branch and to create a tag)
 
 And _voilà_! The new version is released and a CI workflow will publish packages to NPM.
 

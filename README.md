@@ -5,16 +5,13 @@
 
 A theme to harmonize and easily maintain each ArmoniK Documentation.
 
-
 ## Tech Stack
 
 **Client:** Nuxt, Nuxt Content
 
-
 ## Documentation
 
 [Documentation](https://aneoconsulting.github.io/armonik-docs-theme)
-
 
 ## Contributing
 
@@ -32,6 +29,7 @@ Clone the repository and run on the root folder:
 pnpm i
 pnpm run dev
 ```
+
 ## Authors
 
 - [@esoubiran-aneo](https://www.github.com/esoubiran-aneo)

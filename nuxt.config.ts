@@ -7,16 +7,16 @@ const baseURL = process.env.NODE_ENV === 'production' ? '/armonik-docs-theme/' :
 
 export default defineNuxtConfig({
   app: {
-    baseURL: baseURL,
+    baseURL,
     head: {
       meta: [
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
       ],
       link: [
         {
           rel: 'icon',
           type: 'image/ico',
-          href: `${baseURL}favicon.ico`,
+          href: `${baseURL}favicon.ico`
         }
       ]
     }
@@ -26,7 +26,7 @@ export default defineNuxtConfig({
 
   content: {
     documentDriven: {
-      trailingSlash: true,
+      trailingSlash: true
     }
   },
 
@@ -37,7 +37,7 @@ export default defineNuxtConfig({
       siteDescription: 'A beautiful, responsive, and customizable documentation theme for ArmoniK.',
       titleSeparator: '-',
       language: 'en-US',
-      trailingSlash: true,
+      trailingSlash: true
     }
   },
 
