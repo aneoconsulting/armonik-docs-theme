@@ -8,7 +8,8 @@
     "build": "npx playwright install && nuxi build",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
-    "ci:publish": "zx scripts/publish.mjs"
+    "ci:publish": "zx scripts/publish.mjs",
+    "release": "bumpp --commit --push --tag"
   },
   "homepage": "https://github.com/aneoconsulting/armonik-docs-theme#readme",
   "repository": {
