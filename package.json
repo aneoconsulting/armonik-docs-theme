@@ -4,11 +4,17 @@
   "description": "A theme to harmonize and easily maintain each ArmoniK Documentation.",
   "version": "0.6.5",
   "scripts": {
+    "prepare": "nuxt prepare",
+    "postinstall": "nuxt prepare",
     "dev": "nuxi dev",
     "build": "npx playwright install && nuxi build",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
     "ci:publish": "zx scripts/publish.mjs",
+    "lint": "eslint --cache .",
+    "lint:fix": "eslint --cache --fix .",
+    "lint:md": "markdownlint . && case-police ./**/*.md",
+    "lint:md:fix": "markdownlint . --fix && case-police --fix ./**/*.md",
     "release": "bumpp --commit --push --tag"
   },
   "homepage": "https://github.com/aneoconsulting/armonik-docs-theme#readme",
@@ -38,7 +44,12 @@
     "nuxt-seo-kit": "^1.3.8"
   },
   "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "bumpp": "^9.1.0",
+    "case-police": "^0.6.0",
+    "eslint": "^8.40.0",
+    "markdownlint-cli": "^0.34.0",
+    "typescript": "^5.0.4",
     "zx": "^7.2.2"
   }
 }
