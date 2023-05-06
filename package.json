@@ -5,7 +5,6 @@
   "version": "0.6.7",
   "scripts": {
     "prepare": "nuxi prepare",
-    "postinstall": "nuxi prepare",
     "dev": "nuxi dev",
     "build": "npx playwright install && nuxi build",
     "generate": "nuxi generate",
