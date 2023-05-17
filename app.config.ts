@@ -10,14 +10,12 @@ export default defineAppConfig({
         href: 'https://www.linkedin.com/company/aneo/',
         icon: 'mdi:linkedin'
       },
-      instagram: 'https://www.instagram.com/aneoconsulting/',
-      twitter: 'https://twitter.com/ANEOConseil',
+      instagram: 'aneoconsulting/',
+      twitter: 'ANEOConseil',
       website: {
         label: 'Website',
         href: 'https://armonik.fr',
         icon: 'mdi:web',
-        // Waiting for an upstream fix in Docus
-        // @see https://github.com/nuxt-themes/docus/pull/899
         rel: 'noopener'
       },
       github: 'aneoconsulting/armonik-docs-theme'
