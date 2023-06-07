@@ -1,6 +1,6 @@
 {
   "name": "@aneoconsultingfr/armonik-docs-theme",
-  "packageManager": "pnpm@8.5.1",
+  "packageManager": "pnpm@8.6.1",
   "description": "A theme to harmonize and easily maintain each ArmoniK Documentation.",
   "version": "0.6.10",
   "scripts": {
@@ -35,20 +35,20 @@
     "tokens.config.ts"
   ],
   "dependencies": {
-    "@nuxt-themes/docus": "^1.12.0",
-    "@nuxt/devtools": "^0.4.6",
+    "@nuxt-themes/docus": "^1.12.3",
+    "@nuxt/devtools": "^0.5.5",
     "@parcel/watcher": "^2.1.0",
-    "mermaid": "^10.1.0",
-    "nuxt": "^3.5.0",
+    "mermaid": "^10.2.2",
+    "nuxt": "^3.5.3",
     "nuxt-seo-kit": "^1.3.8"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "bumpp": "^9.1.0",
+    "bumpp": "^9.1.1",
     "case-police": "^0.6.1",
-    "eslint": "^8.40.0",
+    "eslint": "^8.42.0",
     "markdownlint-cli": "^0.34.0",
-    "typescript": "^5.0.4",
+    "typescript": "^5.1.3",
     "zx": "^7.2.2"
   }
 }
