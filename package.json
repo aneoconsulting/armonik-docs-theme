@@ -2,7 +2,7 @@
   "name": "@aneoconsultingfr/armonik-docs-theme",
   "packageManager": "pnpm@8.6.3",
   "description": "A theme to harmonize and easily maintain each ArmoniK Documentation.",
-  "version": "0.6.10",
+  "version": "0.6.11",
   "scripts": {
     "prepare": "nuxi prepare",
     "dev": "nuxi dev",
