@@ -3,7 +3,6 @@ name: Deploy Docs to Pages
 env:
   NUXT_APP_BASE_URL: ${{secrets.NUXT_APP_BASE_URL}}
   NUXT_PUBLIC_SITE_URL: ${{secrets.NUXT_PUBLIC_SITE_URL}}
-  NITRO_PRESET: github-pages
 
 on:
   push:
@@ -41,6 +40,8 @@ jobs:
 
       - name: Static HTML export with Nuxt
         run: nr generate
+        env:
+          NITRO_PRESET: github-pages
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@66b63f4a7de003f4f00cc8e9af4b83b8f2abdb96 # v1
