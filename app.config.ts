@@ -31,17 +31,13 @@ export default defineAppConfig({
       owner: 'aneoconsulting',
       edit: true
     },
-    main: {
-      fluid: true
-    },
     header: {
       logo: true,
       showLinkIcon: true,
       exclude: [],
-      fluid: true
+      navigation: true
     },
     footer: {
-      fluid: true,
       credits: {
         text: '',
         href: 'https://www.aneo.eu',

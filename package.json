@@ -35,7 +35,7 @@
     "tokens.config.ts"
   ],
   "dependencies": {
-    "@nuxt-themes/docus": "^1.12.3",
+    "@nuxt-themes/docus": "^2.0.0-beta.8",
     "@nuxt/devtools": "^0.6.2",
     "@parcel/watcher": "^2.1.0",
     "mermaid": "^10.2.3",
