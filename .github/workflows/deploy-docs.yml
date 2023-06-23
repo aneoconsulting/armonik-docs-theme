@@ -1,5 +1,10 @@
 name: Deploy Docs to Pages
 
+env:
+  NUXT_APP_BASE_URL: ${{secrets.NUXT_APP_BASE_URL}}
+  NUXT_PUBLIC_SITE_URL: ${{secrets.NUXT_PUBLIC_SITE_URL}}
+  NITRO_PRESET: github-pages
+
 on:
   push:
     branches:
@@ -12,7 +17,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
@@ -28,17 +33,11 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
         with:
-          node-version: "18"
-          cache: "pnpm"
+          node-version: 18
+          cache: pnpm
 
       - name: Install dependencies
         run: nci
-
-      - name: Use NODE_ENV=production
-        run: echo "NODE_ENV=production" >> $GITHUB_ENV
-
-      - name: Set the site URL
-        run: echo "NUXT_PUBLIC_SITE_URL=https://aneoconsulting.github.io/armonik-docs-theme/" >> $GITHUB_ENV
 
       - name: Static HTML export with Nuxt
         run: nr generate
