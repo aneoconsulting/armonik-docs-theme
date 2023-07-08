@@ -8,7 +8,7 @@ export default defineAppConfig({
       linkedin: {
         label: 'LinkedIn',
         href: 'https://www.linkedin.com/company/aneo/',
-        icon: 'mdi:linkedin'
+        icon: 'mdi:linkedin',
       },
       instagram: 'aneoconsulting/',
       twitter: 'ANEOConseil',
@@ -16,70 +16,70 @@ export default defineAppConfig({
         label: 'Website',
         href: 'https://armonik.fr',
         icon: 'mdi:web',
-        rel: 'noopener'
+        rel: 'noopener',
       },
-      github: 'aneoconsulting/armonik-docs-theme'
+      github: 'aneoconsulting/armonik-docs-theme',
     },
     aside: {
       level: 1,
-      exclude: []
+      exclude: [],
     },
     github: {
       dir: 'content',
       branch: 'main',
       repo: 'armonik-docs-theme',
       owner: 'aneoconsulting',
-      edit: true
+      edit: true,
     },
     main: {
-      fluid: true
+      fluid: true,
     },
     header: {
       logo: true,
       showLinkIcon: true,
       exclude: [],
-      fluid: true
+      fluid: true,
     },
     footer: {
       fluid: true,
       credits: {
         text: '',
         href: 'https://www.aneo.eu',
-        icon: 'LogosAneo'
+        icon: 'LogosAneo',
       },
       textLinks: [
         {
           text: 'ArmoniK',
           target: '_blank',
           rel: 'noopener',
-          href: 'https://aneoconsulting.github.io/ArmoniK/'
+          href: 'https://aneoconsulting.github.io/ArmoniK/',
         },
         {
           text: 'ArmoniK.Core',
           target: '_blank',
           rel: 'noopener',
-          href: 'https://aneoconsulting.github.io/ArmoniK.Core/'
+          href: 'https://aneoconsulting.github.io/ArmoniK.Core/',
         },
         {
           text: 'ArmoniK.Api',
           target: '_blank',
           rel: 'noopener',
-          href: 'https://aneoconsulting.github.io/ArmoniK.Api/'
+          href: 'https://aneoconsulting.github.io/ArmoniK.Api/',
         },
         {
           text: 'ArmoniK.Admin.GUI',
           target: '_blank',
           rel: 'noopener',
-          href: 'https://aneoconsulting.github.io/ArmoniK.Admin.GUI/'
+          href: 'https://aneoconsulting.github.io/ArmoniK.Admin.GUI/',
         },
         {
           text: 'ArmoniK.Community',
           target: '_blank',
           rel: 'noopener',
-          href: 'https://aneoconsulting.github.io/ArmoniK.Community/'
-        }
+          href: 'https://aneoconsulting.github.io/ArmoniK.Community/',
+        },
       ],
-      iconLinks: []
-    }
-  }
+      iconLinks: [],
+    },
+  },
 })

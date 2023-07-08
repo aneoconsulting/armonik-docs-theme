@@ -3,7 +3,7 @@ const sameAs = [
   'https://armonik.fr',
   'https://aneo.eu',
   'https://www.linkedin.com/company/aneo/',
-  'https://www.instagram.com/aneoconsulting/'
+  'https://www.instagram.com/aneoconsulting/',
 ]
 </script>
 

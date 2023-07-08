@@ -1,21 +1,20 @@
 <script setup lang="ts">
-let show = ref(false);
+const show = ref(false)
 
 const { $mermaid } = useNuxtApp()
 
 onMounted(async () => {
   show.value = true
-  // @ts-ignore
+  // @ts-expect-error - mermaid is not typed
   $mermaid().initialize({ startOnLoad: true })
   await nextTick()
-  // @ts-ignore
-  $mermaid().init();
+  // @ts-expect-error - mermaid is not typed
+  $mermaid().init()
 })
-
 </script>
 
 <template>
-  <div class="mermaid" v-if="show">
-    <slot></slot>
+  <div v-if="show" class="mermaid">
+    <slot />
   </div>
 </template>
