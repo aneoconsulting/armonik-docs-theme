@@ -19,7 +19,9 @@ export default defineNuxtConfig({
     },
   },
 
-  extends: ['nuxt-seo-kit', '@nuxt-themes/docus'],
+  extends: ['@nuxt-themes/docus'],
+
+  modules: ['nuxt-simple-robots', 'nuxt-simple-sitemap', 'nuxt-og-image'],
 
   content: {
     documentDriven: {
@@ -27,15 +29,19 @@ export default defineNuxtConfig({
     },
   },
 
+  site: {
+    url: 'https://aneoconsulting.github.io/armonik-docs-theme/',
+  },
+
   runtimeConfig: {
-    public: {
-      siteUrl: 'https://example.com',
-      siteName: 'ArmoniK Docs Theme',
-      siteDescription: 'A beautiful, responsive, and customizable documentation theme for ArmoniK.',
-      titleSeparator: '-',
-      language: 'en-US',
-      trailingSlash: true,
-    },
+    // public: {
+    //   siteUrl: 'https://example.com',
+    //   siteName: 'ArmoniK Docs Theme',
+    //   siteDescription: 'A beautiful, responsive, and customizable documentation theme for ArmoniK.',
+    //   titleSeparator: '-',
+    //   language: 'en-US',
+    //   trailingSlash: true,
+    // },
   },
 
   devtools: true,
