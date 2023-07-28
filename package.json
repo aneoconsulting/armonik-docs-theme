@@ -1,7 +1,7 @@
 {
   "name": "@aneoconsultingfr/armonik-docs-theme",
   "type": "module",
-  "version": "0.6.12",
+  "version": "0.6.13",
   "packageManager": "pnpm@8.6.10",
   "description": "A theme to harmonize and easily maintain each ArmoniK Documentation.",
   "homepage": "https://github.com/aneoconsulting/armonik-docs-theme#readme",
