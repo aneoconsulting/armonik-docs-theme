@@ -1,3 +1,4 @@
+import process from 'node:process'
 import { logger } from '@nuxt/kit'
 import { version } from './package.json'
 
