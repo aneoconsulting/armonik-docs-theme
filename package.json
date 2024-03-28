@@ -35,14 +35,14 @@
   },
   "dependencies": {
     "@nuxt-themes/docus": "^1.14.3",
-    "@nuxt/devtools": "^0.7.1",
+    "@nuxt/devtools": "^1.1.5",
     "mermaid": "^10.3.0",
     "nuxt": "^3.6.5",
     "nuxt-seo-kit": "^1.3.9",
     "playwright": "^1.36.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.8",
+    "@antfu/eslint-config": "^2.11.4",
     "@parcel/watcher": "^2.2.0",
     "bumpp": "^9.1.1",
     "case-police": "^0.6.1",
