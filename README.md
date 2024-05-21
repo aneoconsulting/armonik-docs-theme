@@ -1,4 +1,3 @@
-
 # ArmoniK Docs Theme
 
 [![NPM version](https://img.shields.io/npm/v/@aneoconsultingfr/armonik-docs-theme?color=3AB9D4&label=)](https://www.npmjs.com/package/@aneoconsultingfr/armonik-docs-theme)

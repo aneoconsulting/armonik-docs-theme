@@ -36,7 +36,7 @@ const refinedSrc = computed(() => {
 <style scoped lang="ts">
 css({
   img: {
-    'border-radius': '{radii-md}'
-  }
+    'border-radius': '{radii-md}',
+  },
 })
 </style>

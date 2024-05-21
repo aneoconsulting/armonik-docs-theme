@@ -2,7 +2,6 @@
   "name": "@aneoconsultingfr/armonik-docs-theme",
   "type": "module",
   "version": "0.6.13",
-  "packageManager": "pnpm@9.1.2",
   "description": "A theme to harmonize and easily maintain each ArmoniK Documentation.",
   "homepage": "https://github.com/aneoconsulting/armonik-docs-theme#readme",
   "repository": {
@@ -14,10 +13,10 @@
   },
   "main": "nuxt.config.ts",
   "files": [
-    "components",
-    "composables",
     "app.config.ts",
     "app.vue",
+    "components",
+    "composables",
     "nuxt.config.ts",
     "tokens.config.ts"
   ],
@@ -43,6 +42,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.18.1",
+    "@nuxt/eslint-config": "^0.3.13",
     "@parcel/watcher": "^2.2.0",
     "bumpp": "^9.1.1",
     "case-police": "^0.6.1",
