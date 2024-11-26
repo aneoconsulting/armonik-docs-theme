@@ -39,9 +39,18 @@ export default defineNuxtConfig({
     },
   },
 
-  devtools: true,
+  devtools: {
+    enabled: true,
+  },
 
   experimental: {
     watcher: 'parcel',
+  },
+
+  hooks: {
+    close: (nuxt) => {
+      if (!nuxt.options._prepare)
+        process.exit()
+    },
   },
 })
