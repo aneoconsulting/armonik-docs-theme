@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { withBase } from 'ufo'
 import { computed, useRuntimeConfig } from '#imports'
+import { withBase } from 'ufo'
 
 const props = defineProps({
   src: {
