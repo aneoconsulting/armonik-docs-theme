@@ -23,7 +23,7 @@
   "scripts": {
     "prepare": "nuxi prepare",
     "dev": "nuxi dev",
-    "build": "npx playwright install && nuxi build",
+    "build": "npx playwright install && nuxi build --prerender",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
     "lint": "eslint .",

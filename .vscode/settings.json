@@ -3,5 +3,8 @@
     "Armoni",
     "armonik",
     "nuxt"
-  ]
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  }
 }
