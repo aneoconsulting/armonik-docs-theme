@@ -20,7 +20,11 @@ export default defineNuxtConfig({
     },
   },
 
-  extends: ['nuxt-seo-kit', '@nuxt-themes/docus'],
+  site: {
+    url: 'https://aneoconsulting.github.io/armonik-docs-theme/',
+  },
+
+  extends: ['@nuxt-themes/docus'],
 
   content: {
     documentDriven: {
@@ -53,4 +57,7 @@ export default defineNuxtConfig({
         process.exit()
     },
   },
+
+  compatibilityDate: '2024-11-28',
+  modules: ['@nuxtjs/seo'],
 })
