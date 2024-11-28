@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     },
   },
 
-  extends: ['nuxt-seo-kit', '@nuxt-themes/docus'],
+  extends: ['@nuxt-themes/docus'],
 
   content: {
     documentDriven: {
@@ -53,4 +53,7 @@ export default defineNuxtConfig({
         process.exit()
     },
   },
+
+  compatibilityDate: '2024-11-28',
+  modules: ['@nuxtjs/seo'],
 })
