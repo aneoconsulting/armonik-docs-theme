@@ -20,6 +20,10 @@ export default defineNuxtConfig({
     },
   },
 
+  site: {
+    url: 'https://aneoconsulting.github.io/armonik-docs-theme/',
+  },
+
   extends: ['@nuxt-themes/docus'],
 
   content: {
