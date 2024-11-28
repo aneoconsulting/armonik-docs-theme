@@ -21,6 +21,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm i -g pnpm @antfu/ni
       - run: nci
+      - run: pnpm exec playwright install
       - run: pnpm publish --access public --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
