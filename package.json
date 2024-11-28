@@ -1,7 +1,7 @@
 {
   "name": "@aneoconsultingfr/armonik-docs-theme",
   "type": "module",
-  "version": "0.6.13",
+  "version": "0.6.14",
   "description": "A theme to harmonize and easily maintain each ArmoniK Documentation.",
   "homepage": "https://github.com/aneoconsulting/armonik-docs-theme#readme",
   "repository": {
