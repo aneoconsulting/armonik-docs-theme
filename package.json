@@ -34,20 +34,20 @@
   },
   "dependencies": {
     "@nuxt-themes/docus": "^1.15.1",
-    "@nuxt/devtools": "^1.6.1",
-    "@nuxtjs/seo": "^2.0.2",
+    "@nuxt/devtools": "^3.4.2",
+    "@nuxtjs/seo": "^5.3.14",
     "mermaid": "^11.4.0",
-    "nuxt": "^3.14.1592",
+    "nuxt": "^4.5.2",
     "playwright": "^1.49.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.10.0",
-    "@nuxt/eslint-config": "^0.7.2",
+    "@antfu/eslint-config": "^9.5.1",
+    "@nuxt/eslint-config": "^1.17.0",
     "@parcel/watcher": "^2.5.0",
-    "bumpp": "^9.8.1",
-    "case-police": "^0.7.2",
-    "eslint": "^9.15.0",
+    "bumpp": "^12.3.0",
+    "case-police": "^2.2.1",
+    "eslint": "^10.10.0",
     "markdownlint-cli": "^0.43.0",
-    "typescript": "^5.7.2"
+    "typescript": "^7.0.2"
   }
 }
