@@ -37,7 +37,7 @@
     "@nuxt/devtools": "^1.6.1",
     "@nuxtjs/seo": "^2.0.2",
     "mermaid": "^11.4.0",
-    "nuxt": "^3.14.1592",
+    "nuxt": "^4.0.0",
     "playwright": "^1.49.0"
   },
   "devDependencies": {
